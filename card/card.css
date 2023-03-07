@@ -1,12 +1,54 @@
 
+:root {
+    --primary-color: #FF0000;
+    --secondary-color:#F0F8FF;
+    --text-color: #000000;
+    --back-ground-color:#f5f5f5;
+    --font-family: arial;
+}
 .card{
+    font-family: var(--font-family);
     display: flex;
     flex-direction: column;
-    border: 2px blue solid;
+    border: 3px var(--text-color) solid;
     padding: 2px;
     margin: 1px;
+    background-color: var(--back-ground-color);
+    align-items: center;
+}   
+
+.card-body{
+    margin: 15px;
+    padding: 10px;
+}
+
+.card-title{
+    
+    font-size: 25px;
+    color: var(--text-color);
+}
+a{
+    
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 6px;
+    margin: 3px;
+    border: 3px var(--primary-color) solid;
+    border-radius: 15px;
+    text-decoration: none;
 }
 
 .card img {
-    width: 300px;
+    width: 100%;
+   
 }
+@media screen and (min-width:768px) {
+    .card {
+        flex-direction:row;
+      
+    }
+    .card-body{
+        margin: 15px;
+        padding: 10px;
+    }
+ }
