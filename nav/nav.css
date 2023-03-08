@@ -5,13 +5,16 @@
 }
 
 .navbar-nav{
-
+    
     display: flex;
     flex-direction: column;
     list-style-type: none ;
    
     
 }
+
+    
+
 
 .container{
     display: flex;
@@ -45,7 +48,7 @@
     margin-top: 10px;
     margin-left: 10px;
 }
-@media screen and (min-width:992px){
+@media screen and (min-width:768px){
 
     .navbar-nav{
         flex-direction: row;
@@ -53,5 +56,7 @@
     .container{
         justify-content: space-between;
     }
-
+    .menu{
+        display: none;
+    }
 }
