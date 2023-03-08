@@ -1,0 +1,39 @@
+
+.navbar{
+    background-color: rgb(209, 195, 195);
+}
+
+.navbar-nav{
+
+    display: flex;
+    flex-direction: row;
+    list-style-type: none ;
+   
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-item {
+    margin: 10px 30px;
+    padding: 2px;
+}
+
+.nav-item > a{
+    text-decoration: none;
+    color: #1e1e1e;
+    font-family: Source Sans Pro SemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .64px;
+    line-height: 32px;
+
+}
+.navbar-logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
