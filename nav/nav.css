@@ -1,11 +1,14 @@
 
 .navbar{
     background-color: rgb(209, 195, 195);
+    position: fixed;
+    top:0;
+    width: 100%;
     
 }
 
 .navbar-nav{
-    
+    /*display: none;*/
     display: flex;
     flex-direction: column;
     list-style-type: none ;
@@ -52,6 +55,8 @@
 
     .navbar-nav{
         flex-direction: row;
+        margin-top: 15px;
+    
     }
     .container{
         justify-content: space-between;

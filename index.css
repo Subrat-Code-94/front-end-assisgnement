@@ -1,0 +1,12 @@
+@import "card/card.css";
+@import "nav/nav.css";
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    margin-top: 100px;
+}
