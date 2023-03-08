@@ -1,12 +1,13 @@
 
 .navbar{
     background-color: rgb(209, 195, 195);
+    
 }
 
 .navbar-nav{
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     list-style-type: none ;
    
     
@@ -15,11 +16,13 @@
 .container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    
     
 }
 
 .nav-item {
-    margin: 10px 30px;
+    margin: 10px 20px;
     padding: 2px;
 }
 
@@ -33,7 +36,22 @@
     line-height: 32px;
 
 }
+.nav-item > a:hover{
+    border-bottom: 2px solid red;
+    }
+
+
 .navbar-logo{
     margin-top: 10px;
     margin-left: 10px;
+}
+@media screen and (min-width:992px){
+
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .container{
+        justify-content: space-between;
+    }
+
 }
