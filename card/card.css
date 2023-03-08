@@ -39,7 +39,8 @@ a{
 }
 
 .card img {
-    width: 100%;
+    width: 98%;
+    margin-top: 5px;
    
 }
 @media screen and (min-width:768px) {
@@ -49,5 +50,6 @@ a{
     }
     .card img{
         width: auto;
+        margin-top: 0;
     }
  }
