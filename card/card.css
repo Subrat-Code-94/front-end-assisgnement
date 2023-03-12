@@ -46,9 +46,22 @@
 .card-text{
     margin: 35px 0;
 }
+
 @media screen and (min-width:768px) {
     .card {
         flex-direction:row;
+        width: 80%;
+      
+    }
+    .card img{
+        width: auto;
+        margin-top: 0;
+    }
+ }
+@media screen and (min-width:992px) {
+    .card {
+        flex-direction:row;
+        width: 46%;
       
     }
     .card img{
