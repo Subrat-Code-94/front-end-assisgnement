@@ -1,24 +1,32 @@
+:root {
+    --primary-color: #FF0000;
+    --secondary-color:#F0F8FF;
+    --text-color: #000000;
+    --back-ground-color:#f5f5f5;
+    --font-family: arial;
+}
+
 .cta {
     text-align: center;
 }
 
 .cta >p {
- font-family: arial;
+ font-family: var(--font-family);
  margin: 15px 5px;
 }
 
 .cta-btn{
-    background-color: #FF0000;
-    color: #F0F8FF;
+    background-color:var(--primary-color);
+    color:var(--secondary-color);
     padding: 6px;
-    border: 3px #FF0000 solid;
+    border: 3px var(--primary-color) solid;
     border-radius: 15px;
     text-decoration: none;
 }
 
 .cta-btn:hover{
-    background-color: #F0F8FF;
-    border: 2px #000000 solid ;
-    color: #FF0000;
+    background-color: var(--secondary-color);
+    border: 2px var(--text-color) solid ;
+    color: var(--primary-color);
     
 }

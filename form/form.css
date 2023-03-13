@@ -1,9 +1,17 @@
+:root {
+    --text-color: #000000;
+    --back-ground-color:#f5f5f5;
+}
+
+
+
+
 .form-content{
 
-    background: #f5f5f5;
+    background:var(--back-ground-color);
     margin: 0;
     padding: 10px 30px 30px 30px;
-    border: 3px black solid;
+    border: 3px var(--text-color) solid;
     align-content: center;
     display: flex;
     flex-direction: column;
